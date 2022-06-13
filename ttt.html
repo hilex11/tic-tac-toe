@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ttt.css">
+</head>
+
+<body>
+    <h1>TIC TAC TOE</h1>
+
+    <div class="square" id="square">
+        <div data-pieces class="pieces"></div>
+        <div data-pieces class="pieces"></div>
+        <div data-pieces class="pieces"></div>
+        <div data-pieces class="pieces"></div>
+        <div data-pieces class="pieces"></div>
+        <div data-pieces class="pieces"></div>
+        <div data-pieces class="pieces"></div>
+        <div data-pieces class="pieces"></div>
+        <div data-pieces class="pieces"></div>
+    </div>
+    <div class="winning-msg" id="winningmsg">
+        <div data-winning-msg-text>X's Wins!!!</div>
+        <button id="resetbtn" onclick="ResetGame()">RESET</button>
+    </div>
+    <script src="./ttt.js"></script>
+</body>
+
+</html>
